@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Máy Tính</string>
+    <!--Lyquocvan-->
+    <string name="Cong">+</string>
+    <string name="tru">-</string>
+    <string name="nhan">*</string>
+    <string name="chia">/</string>
+    <string name="bang">=</string>
+    <string name="cham">.</string>
+    <string name="khong">0</string>
+    <string name="mot">1</string>
+    <string name="hai">2</string>
+    <string name="ba">3</string>
+    <string name="bon">4</string>
+    <string name="nam">5</string>
+    <string name="sau">6</string>
+    <string name="bay">7</string>
+    <string name="tam">8</string>
+    <string name="chin">9</string>
+    <string name="C">C</string>
+</resources>

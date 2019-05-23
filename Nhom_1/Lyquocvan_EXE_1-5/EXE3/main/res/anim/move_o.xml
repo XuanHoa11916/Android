@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true"
+    android:interpolator="@android:anim/linear_interpolator">
+    <!-- Use startOffset to give delay between animations -->
+    <!-- Move -->
+    <translate
+        android:duration="2500"
+        android:fromXDelta="0%p"
+        android:repeatMode="restart"
+        android:toYDelta="-55%p">
+    </translate>
+</set>

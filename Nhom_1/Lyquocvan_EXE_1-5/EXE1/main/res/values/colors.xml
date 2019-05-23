@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <!--Lyquocvan-->
+    <color name="colorCam">#FF9800</color>
+    <color name="colorTrang">#FFFFFF</color>
+    <color name="colorBac">#B8B6B5</color>
+    <color name="colorBac1">#DDDAD9</color>
+    <color name="colorCam1">#9C6513</color>
+    <color name="colorBac2">#8A8887</color>
+</resources>

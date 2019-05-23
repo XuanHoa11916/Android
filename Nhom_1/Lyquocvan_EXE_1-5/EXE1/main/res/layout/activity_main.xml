@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:background="@drawable/khung01"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvmanghinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/tvkq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_marginRight="10dp"
+            android:text="@string/khong"
+            android:textSize="35dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2.3"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnbay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonso"
+                android:text="@string/bay"
+                android:textSize="28dp" />
+
+            <Button
+                android:id="@+id/btntam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonso"
+                android:text="@string/tam"
+                android:textSize="28dp" />
+
+            <Button
+                android:id="@+id/btnchin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonso"
+                android:text="@string/chin"
+                android:textSize="28dp" />
+
+            <Button
+                android:id="@+id/btnchia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonpheptinh"
+                android:text="@string/chia"
+                android:textSize="28dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnbon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonso"
+                android:text="@string/bon"
+                android:textSize="28dp" />
+
+            <Button
+                android:id="@+id/btnnam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonso"
+                android:text="@string/nam"
+                android:textSize="28dp" />
+
+            <Button
+                android:id="@+id/btnsau"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonso"
+                android:text="@string/sau"
+                android:textSize="28dp" />
+
+            <Button
+                android:id="@+id/btnnhan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonpheptinh"
+                android:text="@string/nhan"
+                android:textSize="28dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnmot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonso"
+                android:text="@string/mot"
+                android:textSize="28dp" />
+
+            <Button
+                android:id="@+id/btnhai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonso"
+                android:text="@string/hai"
+                android:textSize="28dp" />
+
+            <Button
+                android:id="@+id/btnba"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonso"
+                android:text="@string/ba"
+                android:textSize="28dp" />
+
+            <Button
+                android:id="@+id/btntru"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonpheptinh"
+                android:text="@string/tru"
+                android:textSize="28dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnkhong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonso"
+                android:text="@string/khong"
+                android:textSize="28dp" />
+
+            <Button
+                android:id="@+id/btncham"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonso"
+                android:text="@string/cham"
+                android:textSize="28dp" />
+
+            <Button
+                android:id="@+id/btnbang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonkq"
+                android:text="@string/bang"
+                android:textSize="28dp" />
+
+            <Button
+                android:id="@+id/btncong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonpheptinh"
+                android:text="@string/Cong"
+                android:textSize="28dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:id="@+id/btnclean"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/C"
+                android:background="@drawable/buttonpheptinh"
+                android:textSize="28dp" />
+            <Button
+                android:id="@+id/btndelete"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="DEL"
+                android:background="@drawable/buttonpheptinh"
+                android:layout_height="wrap_content"
+                android:textSize="28dp" />
+        </LinearLayout>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycleview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+
+</LinearLayout>
