@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#52B5C2</color>
+    <color name="colorAccent">#D81B60</color>
+    <!--MainActivity-->
+    <color name="colorBlue1">#52B5C2</color>
+    <color name="colorBlueBc">#C5E8EC</color>
+    <color name="colorWhite1">#FFFFFF</color>
+    <color name="colorBlues">#91ACAF</color>
+    <!--MainLaBan-->
+    <color name="colorXam">#F3EAA4</color>
+    <!--Music-->
+    <color name="colorBlue">#08636F</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorOrange">#F8B00F</color>
+    <color name="colorOranges">#F3D38F</color>
+</resources>

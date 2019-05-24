@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorXam"
+    android:orientation="vertical"
+    tools:context=".MainLaBan">
+
+    <android.support.v4.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/colorBlueBc">
+                <Spinner
+                    android:background="@color/colorWhite"
+                    android:id="@+id/spinner"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"></Spinner>
+                <Spinner
+                    android:layout_marginLeft="25dp"
+                    android:background="@color/colorWhite1"
+                    android:id="@+id/spinners"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"></Spinner>
+            </android.support.v7.widget.Toolbar>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/compass"
+                        android:layout_width="300dp"
+                        android:layout_height="300dp"
+                        android:src="@drawable/dv" />
+
+                    <ImageView
+                        android:id="@+id/kimlaban"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="-200dp"
+                        android:src="@drawable/labann" />
+
+                    <TextView
+                        android:id="@+id/toado"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="150dp"
+                        android:text="ABC"
+                        android:textSize="30dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout>

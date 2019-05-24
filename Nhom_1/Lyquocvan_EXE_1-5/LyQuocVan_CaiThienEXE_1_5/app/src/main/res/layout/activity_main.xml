@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlueBc"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="75dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CẢI THIỆN EXE 1 - 5"
+                android:textColor="@color/colorBlue1"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_exe1"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:background="@drawable/bc_btn"
+                android:text="EXE1"
+                android:textColor="@color/colorWhite1"
+                android:textSize="24dp" />
+
+            <Button
+                android:id="@+id/btn_exe2"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/bc_btn"
+                android:text="EXE2"
+                android:textColor="@color/colorWhite1"
+                android:textSize="24dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_exe3"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:background="@drawable/bc_btn"
+                android:text="EXE3"
+                android:textColor="@color/colorWhite1"
+                android:textSize="24dp" />
+
+            <Button
+                android:id="@+id/btn_exe4"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/bc_btn"
+                android:text="EXE4"
+                android:textColor="@color/colorWhite1"
+                android:textSize="24dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_exe5"
+                android:layout_width="315dp"
+                android:layout_height="80dp"
+                android:background="@drawable/bc_btn"
+                android:text="EXE5"
+                android:textColor="@color/colorWhite1"
+                android:textSize="24dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
